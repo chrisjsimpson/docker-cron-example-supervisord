@@ -4,4 +4,4 @@
 cron
 
 # Run services
-/usr/bin/supervisord --nodaemon
+exec /usr/bin/supervisord --nodaemon
